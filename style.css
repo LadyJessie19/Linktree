@@ -4,7 +4,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #383838, #474747, #3a3a3a, #252525);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -682,7 +682,7 @@ h1{
 	transform-origin: 50% 50%;
 }
 .gitHover:hover{
-    background-color: #383336 !important;
+    background-color: #0f0d0e !important;
     color: white !important;
     animation: shake-animation 4.72s ease infinite;
 	transform-origin: 50% 50%;
@@ -720,4 +720,14 @@ h1{
   padding: 2.5px 15px;
   border-radius: 7px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.noLink a{
+  text-decoration: none !important;
+  color: #eaf0f3;
+}
+
+.noLink a{
+  text-decoration: none !important;
+  color: #eaf0f3;
 }
