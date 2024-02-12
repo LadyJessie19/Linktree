@@ -663,6 +663,13 @@ h1{
 	text-shadow: 0px 2px 10px #111; 
 }
 
+.portfolioHover:hover{
+	background-color: #525964 !important;
+    	color: white !important;
+    	animation: shake-animation 4.72s ease infinite;
+	transform-origin: 50% 50%;
+}
+
 .glitchHover:hover{
     text-transform: uppercase;
     position: relative;
